@@ -43,7 +43,7 @@ nav ul {
 
 }
 
-#icondiv {
+.icondiv {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -68,13 +68,12 @@ i {
 
 img {
     height: auto;
-    width: 300px;
+    width: 250px;
 }
 
 .about-me {
     display: flex;
-    flex-direction: column;
-     flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     width: 60%;
@@ -84,4 +83,23 @@ img {
 img {
     margin: 0 auto;
     padding-top: 20px;
+}
+
+.contacth2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+   font-style: italic;
+   text-decoration: none;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px
+}
+
+.link {
+    text-decoration: none;
 }
