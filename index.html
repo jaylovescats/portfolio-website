@@ -4,39 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/0ac3f25720.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <script
+      src="https://kit.fontawesome.com/0ac3f25720.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    
   </head>
   <body>
     <main>
       <h1>welcome to jaymakeswebsites! i'm jay :)</h1>
       <div id="nav">
-      <nav>
-        <ul>
-          <li><a href="#aboutme" class="link">about me</a></li>
-          <li><a href="#projects" class="link">projects</a></li>
-          <li><a href="#skills" class="link">skills</a></li>
-          <li><a href="contact.html" class="link">contact me!</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="#aboutme" class="link">about me</a></li>
+            <li><a href="#projects" class="link">projects</a></li>
+            <li><a href="#skills" class="link">skills</a></li>
+            <li><a href="contact.html" class="link">contact me!</a></li>
+          </ul>
+        </nav>
       </div>
-      <section id="maincontent">
+      <section class="maincontent">
         <h2 class="about-me" id="aboutme">about me!</h2>
-        <div class="about-me"><img src="IMG_1547.jpg" alt="an image of jay wearing a pink jumper and green skirt, smiling">
-        <div id="text"><p>i am an aspiring software developer based in barnsley, uk.</p>
-        <p>
-          my primary interest is front end development and creating aesthetic
-          websites.
-        </p>
-        <p>
-          i am currently working (and have been for the past three years) in a
-          customer support role, but am now ready to expand my horizons,
-          challenge my brain and move into the world of tech.
-        </p>
-        <p>
-          i am neurodivergent which is a big part of how i process things and
-          how i see the world, and i believe this brings a unique perspective to my web design aesthetic!
-        </p></div></div>
+        <div class="about-me">
+          <img
+            src="IMG_1547.jpg"
+            alt="an image of jay wearing a pink jumper and green skirt, smiling"
+          />
+          <div id="text">
+            <p>i am an aspiring software developer based in barnsley, uk.</p>
+            <p>
+              my primary interest is front end development and creating
+              aesthetic websites.
+            </p>
+            <p>
+              i am currently working (and have been for the past three years) in
+              a customer support role, but am now ready to expand my horizons,
+              challenge my brain and move into the world of tech.
+            </p>
+            <p>
+              i am neurodivergent which is a big part of how i process things
+              and how i see the world, and i believe this brings a unique
+              perspective to my web design aesthetic!
+            </p>
+          </div>
+        </div>
       </section>
       <section class="maincontent">
         <h2 id="projects">projects!</h2>
@@ -47,22 +59,46 @@
           javascript skills.
         </p>
         <!--maybe use an onclick in this section to make it interactive using js.  display gifs of my projects when u click arrow to expand-->
-                 <p>a list of my projects so far:</p>
+        <p>a list of my projects so far:</p>
+        
         <ul id="project-list">
-          <li><a href="https://jaylovescats.github.io/htmlcheatsheet/" target="_blank" rel="noopener noreferrer">html table structure cheat sheet</a> - a cheat sheet on all the elements that exist in html tables and their respective functions.  built using html and css.</li>
           <li>
-            <a href="https://jaylovescats.github.io/leeds-crochet-and-crafts/" target="_blank" rel="noopener noreferrer"
-              >leeds crochet and crafts</a
+            <a
+              href="https://jaylovescats.github.io/htmlcheatsheet/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >html table structure cheat sheet</a
             >
-            - a page built with html and css about the local crochet club i help
-            to run.
+            <button id="expandone">click for more info!</button>
+            <p id="projectone">
+              a cheat sheet on all the elements that exist in html tables and
+              their respective functions. built using html and css.
+            </p>
           </li>
           <li>
-            <a href="https://jaylovescats.github.io/truestartcoffee/" target="_blank" rel="noopener noreferrer"
+            <a
+              href="https://jaylovescats.github.io/leeds-crochet-and-crafts/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >leeds crochet and crafts</a
+            ><button id="expandtwo">click for more info!</button>
+            <p id="projecttwo">
+              a page built with html and css about the local crochet club i help
+              to run.
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://jaylovescats.github.io/truestartcoffee/"
+              target="_blank"
+              rel="noopener noreferrer"
               >truestart coffee</a
             >
-            - a website built using html and advanced css techniques e.g
-            grid/flex.
+            <button id="expandthree">click for more info!</button>
+            <p id="projectthree">
+              a website built using html and advanced css techniques e.g
+              grid/flex.
+            </p>
           </li>
           <li>random horoscope generator - built using javascript.</li>
         </ul>
@@ -70,15 +106,16 @@
       <section id="icons">
         <h2 id="skills">skills!</h2>
         <div class="icondiv">
-        <i class="fa-brands fa-js"></i>
-        <i class="fa-brands fa-node"></i>
-        <i class="fa-brands fa-git"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css"></i>
-        <i class="fa-brands fa-npm"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css"></i>
+          <i class="fa-brands fa-npm"></i>
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
